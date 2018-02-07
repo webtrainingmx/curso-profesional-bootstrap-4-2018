@@ -1,0 +1,27 @@
+{
+  "name": "curso-profesional-bootstrap-4-2018",
+  "version": "1.0.0",
+  "description": "Si te dedicas al desarrollo web de portales de internet o aplicaciones web seguramente has escuchado de  [Bootstrap](http://getbootstrap.com/), el framework CSS más utilizado por los front-end profesionales.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webtrainingmx/curso-profesional-bootstrap-4-2018.git"
+  },
+  "keywords": [
+    "Boostrap 4",
+    "Curso Bootstrap 4"
+  ],
+  "author": "Alex Arriaga <alex.arriaga@webtraining.mx>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/webtrainingmx/curso-profesional-bootstrap-4-2018/issues"
+  },
+  "homepage": "https://github.com/webtrainingmx/curso-profesional-bootstrap-4-2018#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
