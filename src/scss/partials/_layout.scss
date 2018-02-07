@@ -1,0 +1,14 @@
+@import "variables";
+
+.b-header {
+  background-color: $color-blue;
+  height: 55px;
+
+  .navbar-dark {
+    background-color: $color-blue;
+  }
+
+  a {
+    color: white;
+  }
+}
