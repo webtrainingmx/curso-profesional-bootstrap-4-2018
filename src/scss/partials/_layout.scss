@@ -2,10 +2,10 @@
 
 .b-header {
   background-color: $color-blue;
-  height: 55px;
 
   .navbar-dark {
     background-color: $color-blue;
+    padding-left: 0;
   }
 
   a {

@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   <title>Pangular</title>
   <link rel="stylesheet"
         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -15,41 +18,157 @@
 
   <!-- Header -->
   <header class="b-header">
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="#">Pangular</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home<span
-              class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Encuestas</a>
-          </li>
-        </ul>
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">Pangular</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home<span
+                    class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Encuestas</a>
+                </li>
+              </ul>
+            </div>
+
+          </nav>
+        </div>
       </div>
-    </nav>
+    </div>
   </header>
   <!-- ./Header -->
 
   <div class="b-content">
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
           <h1>
             Mis Encuestas
           </h1>
+
+          <div class="row">
+            <div class="col">
+              <div class="b-panel b-panel-primary">
+                <div class="b-panel__heading">Encuestas disponibles</div>
+                <div class="b-panel__body">
+                  <div class="b-poll">
+
+                    <div class="row">
+                      <div
+                        class="col-12 col-sm-6 col-md-7 col-lg-7 col-xl-7">
+                        <div class="b-question">
+                          <a href="#">
+                            <strong>Cuál es tu framework de desarrollo front-end
+                              favorito?</strong>
+                          </a>
+                        </div>
+                      </div>
+
+                      <div
+                        class="col-12 col-sm-6 col-md-5 col-lg-5 col-xl-5">
+                        <a href="" class="btn btn-default">Reportes</a>
+                        <a href="" class="btn btn-warning">Despublicar</a>
+                        <a href="" class="btn btn-primary">Editar</a>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="card">
+                <img class="card-img-top"
+                     src="/static/img/code-1.jpg"
+                     alt="Análisis de datos en tiempo real">
+                <div class="card-body">
+                  <h5 class="card-title">Análisis de datos en tiempo real</h5>
+                  <p class="card-text">¡No dejes pasar esta oportunidad y
+                    empieza conociendo a tus clientes!</p>
+                  <a href="#" class="btn btn-primary" data-toggle="modal"
+                     data-target="#exampleModal">Empezar ahora</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="card">
+                <img class="card-img-top"
+                     src="/static/img/code-2.jpg"
+                     alt="Análisis de datos en tiempo real">
+                <div class="card-body">
+                  <h5 class="card-title">Entérate primero que nadie</h5>
+                  <p class="card-text">Suscríbete a nuestro newsletter y obtén
+                    demos gratuitas, códigos de descuento y más</p>
+                  <a href="#" class="btn btn-primary" data-toggle="modal"
+                     data-target="#exampleModal">Empezar ahora</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="card">
+                <img class="card-img-top"
+                     src="/static/img/code-2.jpg"
+                     alt="Análisis de datos en tiempo real">
+                <div class="card-body">
+                  <h5 class="card-title">Entérate primero que nadie</h5>
+                  <p class="card-text">Suscríbete a nuestro newsletter y obtén
+                    demos gratuitas, códigos de descuento y más</p>
+                  <a href="#" class="btn btn-primary" data-toggle="modal"
+                     data-target="#exampleModal">Empezar ahora</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </div>
 
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+       aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal"
+                  aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- Bootstrap Installation using a CDN -->

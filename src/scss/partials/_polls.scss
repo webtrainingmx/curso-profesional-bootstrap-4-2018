@@ -1,0 +1,36 @@
+.b-panel {
+  &__heading {
+    background-color: #002c53;
+    border: solid 1px #00060b;
+    color: white;
+    min-height: 30px;
+    padding: 10px 20px;
+  }
+  &__body {
+    background-color: #ffffff;
+    border: solid 1px #d9dddf;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+  }
+
+}
+
+.b-question a {
+  text-decoration: none;
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-align: left;
+  margin: 8px 0;
+  color: #292929;
+  display: block;
+
+}
+
+.b-question a:hover {
+  color: #0067a5;
+}
+
+.b-button-view-poll {
+  padding-top: 5px;
+}

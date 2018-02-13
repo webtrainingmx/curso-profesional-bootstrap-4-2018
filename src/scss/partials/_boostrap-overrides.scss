@@ -1,0 +1,21 @@
+@import "variables";
+
+.btn-primary {
+  background-color: $color-primary;
+  color: white;
+}
+
+.btn-default {
+  background-color: $color-default;
+  color: white;
+
+  &:hover {
+    color: black;
+    background-color: lighten($color-default, 20%);
+  }
+}
+
+.btn-warning {
+  background-color: $color-warning;
+  color: white;
+}
