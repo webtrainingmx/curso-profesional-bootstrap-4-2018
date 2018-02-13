@@ -1,13 +1,13 @@
 @import "variables";
 
 .btn-primary {
-  background-color: $color-primary;
-  color: white;
+  //background-color: $color-primary;
+  //color: white;
 }
 
 .btn-secondary {
-  background-color: $color-default;
-  color: white;
+  //background-color: $color-default;
+  //color: white;
 
   &:hover {
     color: black;
@@ -16,8 +16,8 @@
 }
 
 .btn-warning {
-  background-color: $color-warning;
-  color: white;
+  //background-color: $color-warning;
+  //color: white;
 }
 
 input:invalid {
