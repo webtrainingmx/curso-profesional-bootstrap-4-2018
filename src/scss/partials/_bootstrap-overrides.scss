@@ -24,3 +24,10 @@ input:invalid {
   //background-color: red;
   border: 5px solid red;
 }
+
+.nav-item {
+  padding: 0 15px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  display: inline-block;
+}

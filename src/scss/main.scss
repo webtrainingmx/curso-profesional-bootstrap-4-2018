@@ -1,7 +1,19 @@
+// Bootstrap Variables
+@import "partials/bootstrap-variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+//
+// Our custom variables and base CSS
+//
 @import "partials/variables";
 @import "partials/base";
 @import "partials/layout";
+//
+// Bootstrap new components and manual overrides
+//
 @import "partials/bootstrap-new-components";
 @import "partials/bootstrap-overrides";
+//
+// App modules
+//
 @import "modules/login";
 @import "modules/polls";
